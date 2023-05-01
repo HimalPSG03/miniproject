@@ -1,0 +1,68 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  .games-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .game-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .game-item img {
+    width: 80%;
+  }
+  
+  .game-item h3 {
+    margin-top: 10px;
+  }
+  
+  .game-item p {
+    margin-top: 5px;
+  }
+  
+  .game-item .price {
+    font-weight: bold;
+  }
+  
+  .game-item a {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    width: 80%;
+  }
+  
+  .game-item a:hover {
+    background-color: #3e8e41;
+  }
+  
